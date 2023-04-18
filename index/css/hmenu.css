@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+*,*::after,*::before {box-sizing: border-box;}
+a {text-decoration: none; color: #131313;}
+
+/* 헤더부분 */
+header {width: 100%; position: fixed; top: 0;
+    background: rgba(255, 255, 255, 0.22);
+    height:50px; line-height:50px; }
+header h1 {position: absolute; right: 0;left: 0; text-align: center; margin-top: 5px;}   
+p {position: absolute; right: 0;left: 0; margin-left: 10px; }
+.xi-align-left {color: #fff; font-size: 1.8rem;}
+.xi-user-o {color: #fff; font-size: 1.7rem; }
+.xi-market {color: #fff; font-size: 1.7rem;}
+.xi-search {color: #fff; font-size: 1.7rem;}
+#menu {width: 100%; height: 100%; }
+#menu ul {text-align: right; margin-right: 10px; margin-top: 5px; }
+#menu ul li {float: right;padding: 0 3px; }
+
+#main {width: 100%;}
+#main img {width: 100%; vertical-align: bottom;}
+
+.menu {width: 90%; height: 150%; position: absolute; left:50%; transform: translateX(-50%);
+       top: 50px; background: rgba(255, 255, 255, 0.919); border: 1px solid#acacac; text-align: center; z-index: 100000; padding: 0 30px; /*display: none;*/ /*햄버거 메뉴바 노출하려면 display:none 주석처리 풀기 */}    
+
+.head {margin-top: 80px; margin-bottom: 50px;}
+.x {float: right; 
+    position: relative; margin-top: -5rem;}
+.hb>li {padding: 30px 0;} /*햄버거 메뉴 상하 안쪽여백*/
+.hb>li {border-bottom:1px solid #a1a1a1; }
+.hb>li:last-child{border-bottom: 0px solid#a1a1a1;}
+.hb li img {position: absolute; right: 10%; margin-top: 6px;}
+.sub {margin: 25px 0;}
+.sub li {padding: 5px 0;}
+
+.hb1 {margin: 30px 0;}
+.hb1 li {float: left; width: 50%; text-align: center;}
+.hb1 ul li img {width: 100%; padding: 0 2px;}
+
+.hb2 {float: left; text-align: left; position: relative; top: -25px;}
+.info1 {margin-left: 2px; font-size: 20px; font-weight: normal;}
+.info2 {margin-top: 10px; margin-left: 3px; font-size: 15px;}
+.info3 {margin-left: 4.5px; font-size: 15px;}
+
+
+
+
+
+
+
+
+
+
+

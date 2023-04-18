@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+*,*::after,*::before {box-sizing: border-box;}
+a {text-decoration: none; color: #333;}
+
+/* 헤더부분 */
+header {width: 100%; position: fixed; top: 0;
+     background: rgba(255, 255, 255, 0.22);
+     height:50px; line-height:50px; }
+header h1 {position: absolute; right: 0;left: 0; text-align: center; margin-top: 5px; cursor: pointer;}   
+p {position: absolute; right: 0;left: 0; margin-left: 10px; }
+.xi-align-left {color: #fff; font-size: 1.8rem;}
+.xi-user-o {color: #fff; font-size: 1.7rem; }
+.xi-market {color: #fff; font-size: 1.7rem;}
+.xi-search {color: #fff; font-size: 1.7rem;}
+#menu {width: 100%; height: 100%; }
+#menu ul {text-align: right; margin-right: 10px; margin-top: 5px; }
+#menu ul li {float: right;padding: 0 3px; }
+
+
+/* 메인 첫페이지 이미지 */
+#main {width: 100%; }
+#main img {width: 100%;}
+
+/* 햄버거 메뉴바 */
+.h_menu {width: 90%; height: 150%; position: absolute; left:50%; transform: translateX(-50%);
+    top: 50px; background: rgba(255, 255, 255, 0.919); border: 1px solid#acacac; text-align: center; z-index: 100000; padding: 0 30px; display: none; /*햄버거 메뉴바 노출하려면 display:none 주석처리 풀기 */}    
+
+.head {margin-top: 80px; margin-bottom: 50px;}
+.x {float: right; 
+ position: relative; margin-top: -5rem;}
+.hb>li {padding: 30px 0;} /*햄버거 메뉴 상하 안쪽여백*/
+.hb>li {border-bottom:1px solid #a1a1a1; }
+.hb>li:last-child{border-bottom: 0px solid#a1a1a1;}
+.hb li img {position: absolute; right: 10%; margin-top: 6px;}
+.sub {margin: 25px 0;}
+.sub li {padding: 5px 0;}
+
+.hb1 {margin: 30px 0;}
+.hb1 li {float: left; width: 50%; text-align: center;}
+.hb1 ul li img {width: 100%; padding: 0 2px;}
+
+.hb2 {float: left; text-align: left; position: relative; top: -25px;}
+.info1 {margin-left: 2px; font-size: 20px; font-weight: normal;}
+.info2 {margin-top: 10px; margin-left: 3px; font-size: 15px;}
+.info3 {margin-left: 4.5px; font-size: 15px;}
+
+/*첫 번째 배너이미지*/
+#banner1 {width: 100%; height: 100%; margin: 5px auto;}
+#banner1 img {width: 100%;}
+
+/* 카테고리별 뉴 추천아이템 */
+#new1 {width: 100%; text-align: right; position: relative;}
+h3 {margin-right: 15px;}
+#new1 ul {margin-right: 12px;}
+#new1 ul li {display: inline-block; margin-top: 20px;}
+#new1 ul li a {display: block; font-size: 15px; font-weight: bold; margin-bottom: 6px;}
+#new1 ul li:nth-child(4) {border-bottom: 3px solid #444444;}
+
+.box {width: 100%; height: 400px;position: relative;}
+.box ul li { float: right; margin:20px; margin-top: 50px;} 
+.box span {display: block; height: 25px; line-height: 25px; margin-left: 18px;}
+.box .rr{position: absolute; top: 50%; transform: translateY(-50%); margin-left: 40px;} 
+.xi-heart { font-size: 1rem; margin-left: 115px;}
+
+
+/* 더보기 아이콘 */
+#aa1 {width: 20%; height: 100%; line-height: 250%; border: 1px solid #333; text-align: center; text-decoration: none; margin: 10px auto; position: relative; transition: all 0.5s;}
+#aa1 a:hover {color: #fff;}
+#aa1::before {content: ""; position: absolute; left: 0; height: 100%; width: 0; background: #000; transition: all 0.5s; transform-origin: left; z-index: -1;}
+#aa1:hover::before {width: 100%;} 
+
+/* 두 번째 배너이미지 */
+#banner2 {width: 100%; height: 100%; margin-top: 50px;}
+#banner2 img {width: 100%;}
+
+/* 베스트셀러 부분 */
+#new2 {width: 100%; height: 300px;}
+#new2 h2 {text-align: center; height: 40px; margin-top: 10px;}
+.line {width: 10%; background: #444444; height: 3px; text-align: center; margin-left: 45%; margin-top: 3px;}
+#new2 h4 {text-align: right; margin-top: -40px; margin-right: 20px; font-weight: normal;}
+#new2 ul{width: 100%; height: 100px; margin-top: 50px;}
+#new2 ul li {width: 33.33%; float: left; text-align: center; }
+#new2 ul li img {width: 90%; }
+
+
+
+
+/* 화살표 부분 */
+
+/*
+.prev {position: absolute; top: 65%; left: -55px; margin-left: 40%; transform: translateY(-50%);}
+.next {position: absolute;  top: 65%; right: -24px; margin-right: 40%; transform: translateY(-50%);} */
+
+/* 세 번째 배너이미지 */
+#banner3 {width: 100%; height: 100%; margin-top: 70px;}
+#banner3 img {width: 100%;}
+
+/* you may also like 부분*/
+#new3 {width: 100%; }
+#new3 h2 {margin-top: 10px; margin-left: 10px;}
+#new3 h4 {float: right; margin-top: -30px;}
+#new3 img {margin: 0 5px;}
+
+.box4 {width: 90%; height: 100%; clear: both; margin: 0 auto; }
+.box4 ul li { float: left; margin-top: 50px;  width: 25%;  position: relative;} 
+.box4 img {width: 90%; margin: 0 auto;}
+
+
+.box4 span {display: block; height: 25px; line-height: 20px;  font-size: 12px; }
+.box4 .xi-heart { font-size: 1rem; position: absolute; right: 20px;margin-top: -3px;}
+
+/* 컬렉션 부분 */
+#collectio {width: 100%; height: 100%; margin-top: 60px;}
+#collectio img {width: 100%;}
+
+#banner4 {width: 100%; height: 100%; margin-top: 70px;}
+#banner4 img {width: 100%;}
+
+#video {width: 100%; position: relative; margin-bottom: 25px;}
+#video h2 {margin-top: 20px; margin-left: 10px;}
+#video h4 {float: right;  position: relative; top: -20px; margin-right: 10px; font-weight: normal;}
+
+.videoContainer { position: relative; padding-bottom: 56.28%; /*화면비율 16:9 케이스*/
+    padding-top: 30px; height: 0; overflow: hidden;}
+.videoContainer iframe {position: absolute; top: 0;left: 0; width: 100%; height: 100%;}
+
+#new4 {width: 100%; position: relative;}
+
+.text2 {width: 100%; height: 100px; }
+.text2 h4 {font-weight: normal; color: #fff; margin-top: 25px; padding: 10px; background: #333; width: 100%; height: 90px; line-height: 30px;}
+
+.new4 h2 { margin-left: 10px;}
+.new4 h4 {float: right; margin-right: 5px; position: relative; top: -20px; }
+.new4 img {margin: 0 5px;}
+
+
+.box5 {width: 90%; height: 100%; clear: both; margin: 0 auto; }
+.box5 ul li { float: left; margin-top: 50px;  width: 25%;  position: relative;} 
+.box5 img {width: 90%; margin: 0 auto;}
+.box5 span {display: block; height: 25px; line-height: 20px;  font-size: 12px; }
+.box5 .xi-heart { font-size: 1rem; position: absolute; right: 20px;margin-top: -3px;}
+
+
+#event {width: 100%;}
+#banner5 {width: 100%; height: 100%; margin-top: 70px;}
+#banner5 img {width: 100%;}
+
+/* 회원혜택 부분 */
+#gridbox {width: 100%; margin-top: 50px; border: 1px solid #fff; display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); grid-gap: 3px;}
+#gridbox img { width: 100%; vertical-align: bottom;} 
+
+#gridbox span {display: block; float: right; margin-top: 15px; text-align: center; margin-right: 30px;}
+
+/* footer 부분 */
+.footerbox {width: 100%; height: 100%; background: linear-gradient(to top,black, white); border-top:1px solid #333 ; }
+.f_head {width: 100%; height: 250px; margin-top: 30px; text-align: center; margin-left: 13px;}
+.f_head ul {width: 23%; float: left; padding: 0 5px;}
+.f_head ul li {display: block;}
+.f_head ul li a{font-size: 12px;}
+
+.tt1 {font-weight: bold; margin-bottom: 10px;}
+.tt2 {font-weight: bold; margin-bottom: 10px;}
+.tt3 {font-weight: bold; margin-bottom: 10px;}
+.tt4 {font-weight: bold; margin-bottom: 10px;}
+
+.sns {width: 100%; height: 230px; text-align: center;}
+.sns ul li {height: 35px; line-height: 35px; font-size: 13px; color: #fff;}
+.sns button {width: 40%;}
+.tt5 {margin-bottom: 10px;}
+
+.bu {width: 100%; height: 80px; text-align: center;}
+.bu button {width: 45%; background: transparent; border: 1px solid #fff; margin: 0 10px; }
+.bu button a {color: #fff; font-size: 11px;}
+
+.ft {width: 100%; height: 50px;}
+
+.ft ul li {float: left; width: 30%; text-align: center; font-size: 13px; color: #fff;  margin-left: 15px; }
+
+/*
+.footerbox {width: 100%; height: 610px; position: relative; border-top: 1px solid #000; margin-top: 20px; padding: 10px; background: linear-gradient(to top,black, white);}
+
+.f_head {width: 100%; height: 100%;}
+.f_head ul {margin-top: 18px; float: left;}
+.f_head ul li {display: block; }
+.f_head ul li a {font-size: 0.7rem; margin-right: 18px;}
+
+
+.tt1 {font-weight: bold; margin-bottom: 10px;}
+.tt2 {font-weight: bold; margin-bottom: 10px;}
+.tt3 {font-weight: bold; margin-bottom: 10px;}
+.tt4 {font-weight: bold; margin-bottom: 10px;}
+
+.sns {width: 100%; height:100%;}
+.sns li {text-align: center; height: 30px; line-height: 30px;}
+
+.sign1 {width: 100%; height: 100%;}
+.sign1 button {width: 50%;}
+
+/* footer 부분 
+.footerbox {width: 100%; height: 610px; position: relative; border-top: 1px solid #000; margin-top: 20px; padding: 10px; background: linear-gradient(to top,black, white);}
+
+.f_head {width: 100%; height: 100%;}
+.f_head ul {margin-top: 18px; float: left;}
+.f_head ul li {display: block; }
+.f_head ul li a {font-size: 0.7rem; margin-right: 15px;}
+.f_head ul li:last-child {margin-right:0;}
+
+.tt1 {font-weight: bold; margin-bottom: 10px;}
+.tt2 {font-weight: bold; margin-bottom: 10px;}
+.tt3 {font-weight: bold; margin-bottom: 10px;}
+.tt4 {font-weight: bold; margin-bottom: 10px;}
+
+.f_head2 {width: 100%;height: 100%; margin: 3rem auto; position: relative;}
+.f_head2 ul li { padding: 0 20px; text-align: center;}
+
+.tt5 {color: #fff; text-align: center;}
+.f_head2 img {text-align: center; margin-top: 20px;}
+
+.sign_up {width: 100%; height: 100%; position: relative;}  
+.sign1 {text-align: center; margin-bottom: 10px;}                  
+.sign1 button {width: 30%; height: 20px;
+   border: 1px solid #d1cecc;
+   background: #fff; font-size: 11px; text-align: center;}
+.sign2 {color: #fff; font-size: 0.8rem; text-align: center;}  
+.tt6 {margin-top: -60px;}
+.tt7 {font-size: 0.7rem; margin-top: 10px;}
+.sign3 {margin-top: 50px; text-align: center;}
+.sign3 button {width: 40%; height: 20px; border: 1px solid #fff; margin: 0 10px; background: transparent; color: #fff; margin-bottom: 5px; margin-top: 15px;}
+.sign4 { position: absolute; width: 100%;
+    height: 10px; line-height: 10px; 
+margin-top: 10px;}
+.sign4 ul li { color: #fff; font-size: 0.8rem; margin: 10px; float: left; margin-top: 20px; }*/
+
+
+

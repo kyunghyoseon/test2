@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+*,*::after,*::before {box-sizing: border-box;}
+a {text-decoration: none; color: #333;}
+
+body {width: 100%;}
+/* 헤더부분 */
+header {width: 100%; position: fixed; top: 0;
+    background: rgba(255, 255, 255, 0.22);
+    height:50px; line-height:50px; }
+header h1 {position: absolute; right: 0;left: 0; text-align: center; margin-top: 5px;}   
+p {position: absolute; right: 0;left: 0; margin-left: 10px; }
+.xi-align-left {color: #000; font-size: 1.8rem;}
+.xi-user-o {color: #000; font-size: 1.7rem;}
+.xi-market {color: #000; font-size: 1.7rem;}
+.xi-search {color: #000; font-size: 1.7rem;}
+#menu {width: 100%; height: 100%; }
+#menu ul {text-align: right; margin-right: 10px; margin-top: 5px;}
+#menu ul li {float: right;padding: 0 3px; }
+
+/* 향수 카테 상단 이미지 */
+#main_1 {width: 100%; }
+#main_1 img {width: 100%;}
+
+#text {width: 100%; margin-top: 50px;}
+#text img {width: 100%}
+
+/*도손 오드 퍼퓸 1*/
+section {width: 100%; }
+#img1 {width: 100%;  margin: 20px; padding-right: 37px;}
+#img1 img {width: 100%; border: 1px solid #e2e2e2;}
+
+.text1 {width: 100%; height: 100%; line-height: 22px;}
+.text1 a{text-decoration: none; color: #000;}
+.text1 ul {padding: 20px;}
+.d1 {text-align: center; font-size: 17px; font-weight: bold; margin-bottom: 15px;}
+.d2 {float: left;}
+.d3 {float: right;}
+.d4 {float: left; border-top: 1px solid #333; width: 100%; margin-top: 20px; padding-top: 20px;}
+.btn1 {width: 100%; padding: 10px; margin: 30px auto; background: #000; color: #fff; outline: none; border: none; cursor: pointer;}
+.btn1 a{color: #fff;}
+.btn1:hover {background: #fffcce; color: #000;}
+
+/*더보기 부분*/
+#next {width: 100%; height: 50px; margin: 10% auto; }
+#next ul{text-align: center;}
+#next ul li {height: 25px; line-height: 25px;}
+#next ul li a{font-size: 14px;}
+
+.xi-angle-down-min {font-size: 25px; font-weight: bold; color: #6d6d6d;}
+
+
+/*footer 부분*/
+
+.footerbox {width: 100%; height: 100%; background: linear-gradient(to top,black, white); border-top:1px solid #333; }
+.f_head {width: 100%; height: 250px; margin-top: 30px; text-align: center; margin-left: 13px;}
+.f_head ul {width: 23%; float: left; padding: 0 5px;}
+.f_head ul li {display: block;}
+.f_head ul li a{font-size: 12px;}
+
+.tt1 {font-weight: bold; margin-bottom: 10px;}
+.tt2 {font-weight: bold; margin-bottom: 10px;}
+.tt3 {font-weight: bold; margin-bottom: 10px;}
+.tt4 {font-weight: bold; margin-bottom: 10px;}
+
+.sns {width: 100%; height: 230px; text-align: center;}
+.sns ul li {height: 35px; line-height: 35px; font-size: 13px; color: #fff;}
+.sns button {width: 40%;}
+.tt5 {margin-bottom: 10px;}
+
+.bu {width: 100%; height: 80px; text-align: center;}
+.bu button {width: 45%; background: transparent; border: 1px solid #fff; margin: 0 10px; }
+.bu button a {color: #fff; font-size: 11px;}
+
+.ft {width: 100%; height: 50px;}
+
+.ft ul li {float: left; width: 30%; text-align: center; font-size: 13px; color: #fff;  margin-left: 15px; }

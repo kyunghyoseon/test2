@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+*,*:after,*:before {box-sizing: border-box;}
+a {text-decoration: none; color: #fff;}
+
+body {font-size: 0.8rem "돋움";
+background: url(../img/sign.jpg) no-repeat center fixed;
+background-size: cover;  }
+header {width:100%; left: 0; top: 0; text-align: center; margin-top: 30px;}
+
+#join_mem {
+  width:345px; height:750px;
+  border:1px solid rgba(255,255,255,0.4);
+  padding:0px 5px;
+  background:rgba(255,255,255,0.1);
+  position: absolute;left:50%;top:50%;
+  transform:translate(-50%,-50%);  
+  padding-top: 20px;}
+
+.close2 {float:right;cursor: pointer;
+  background: transparent; border:none;
+  outline: none; font-size:3rem; width:40px;
+  height:40px; color:#fff;} 
+
+#join_mem h2 {margin:10px 0 40px 15px;  color:#fff;}          
+#join_mem label {display: block; padding-left:3px;margin-bottom: 2px;
+  color:#fff;  }
+#id1 {float:left;}                 
+
+#id3 {clear:both;color:#fff; font-size:0.8rem; margin-bottom: 4px;}
+#join_mem form {margin:20px 15px 0;}
+#join_mem input {display: inline-block; margin-bottom:10px;
+       border:none; color:#fff; font-size:1rem; line-height: 1rem;
+       width:300px; height: 30px; background: transparent; 
+       border:1px solid rgba(255,255,255,0.7);
+       padding:3px 5px; }
+
+.mm {text-align: center; margin: 3rem 0; margin-top: 10px;}
+.mm li {display: inline-block; margin-right: 10px;} 
+.mm li a {font-size: 0.8rem;}
+.mm li:last-child {margin-right: 0;} 
+.mm li:after {content: "|" ; color: #fff; padding-left: 10px;} 
+.mm li:last-child::after {content: "";} /*마지막 | 부분만 " " 여백으로 없애줌*/
+
+.btn1 {outline:none; border:none; background: #000; cursor: pointer; width:300px; color:#fff; text-align: center; width: 300px!important; margin-top:30px; height: 30px; font-size: 0.95rem;}
+.btn1:hover { background: #fff; color:#000;}  
+
+#button1 {margin-top: 20px;}
+#button1 input {text-align: center; background: rgba(255, 255, 255, 0.69); color: #000; border: none; cursor: pointer;}
+#button1 img {margin-left: -212px; width: 5%;}
+#button1 input.btn3:hover { background: rgba(243, 239, 18, 0.453); color:#000; font-weight: bold;} 
+#button1 input.btn4:hover { background: rgba(38, 252, 42, 0.453); color:#000; font-weight: bold;} 
+
+#dip img {width: 50%; margin: 80px; margin-top: 55px;}
+
+.m4 li:after {content: "|"; padding-left: 10px;} 
+.m4 li:last-child::after {content: "";} /*마지막 | 부분만 " " 여백으로 없애줌*/

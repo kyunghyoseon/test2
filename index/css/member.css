@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*,*:after,*:before {box-sizing: border-box;}
+body {font-size: 0.8rem "돋움";
+background: url(../img/sign_1.jpg) no-repeat center fixed;
+background-size: cover;}
+header {width:100%; left: 0; top: 0; text-align: center; margin-top: 30px;}
+
+#join_mem {
+  width:345px; height:850px;
+  border:1px solid rgba(255,255,255,0.4);
+  padding:0px 5px;
+  background:rgba(255,255,255,0.1);
+  position: absolute;left:50%;top:50%;
+  transform:translate(-50%,-50%); 
+  padding-top: 20px; }
+
+.close2 {float:right;cursor: pointer;
+  background: transparent; border:none;
+  outline: none; font-size:3rem; width:40px;
+  height:40px; color:#fff;} 
+
+#join_mem h2 {margin:10px 0 40px 15px;  color:#fff;}          
+#join_mem label {display: block; padding-left:3px;margin-bottom: 2px;
+  color:#fff;  }
+#id1 {float:left;}                 
+
+#id3 {clear:both;color:#fff; font-size:0.8rem; margin-bottom: 6px;}
+#join_mem form {margin:20px 15px 0;}
+#join_mem input {display: inline-block; margin-bottom:10px;
+       border:none; color:#fff; font-size:1rem; line-height: 1rem;
+       width:300px; height: 30px; background: transparent; 
+       border:1px solid rgba(255,255,255,0.7);
+       padding:3px 5px; }
+       
+
+.ss {margin-top:30px; outline:none; border:none; background: #000; cursor: pointer;
+  width:300px;  color:#fff;
+  text-align: center;  height: 30px;}       
+
+.ss:hover { background: #fff; color:#000;}               
+
+
+/*input::-webkit-input-placeholder {color: #fff;} /*박스안에 글자 컬러를 변경하는 법*/
+
+#dip {width: 100%;}
+#dip img {width: 50%; margin: 80px; margin-top: 55px;}
+
